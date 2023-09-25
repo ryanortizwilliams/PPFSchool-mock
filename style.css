@@ -1,8 +1,7 @@
+.dashboard{
+    height: 100vh;
+}
 .language-icon{
     color: blue;
     font-size: larger;
-}
-
-.sidebar{
-    height: 100vh
 }
