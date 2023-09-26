@@ -5,3 +5,15 @@
     color: blue;
     font-size: larger;
 }
+
+.large-profile{
+    object-fit: cover;
+    width: 8vw;
+    height: 8vw;
+}
+
+.small-profile{
+    object-fit: cover;
+    width: 72px;
+    height: 72px;
+}
