@@ -58,46 +58,48 @@
       </div>
     </nav>
     <div class="full-page d-flex">
-      <div class="apply-contents bg-body w-75 mx-auto my-4">
-        <div class="title-text text-center d-none d-md-block">
-          <h2>レッスン申し込み</h2>
-          <p>レッスン内容をご確認上、申し込みボタンを押してください。</p>
-        </div>
-        <div class="bg-light p-5">
-          <div class="row">
-            <div class="col-lg-6">
-              <h1>Java入門</h1>
-              <small class="text-muted">~先生</small>
-            </div>
-            <div class="col-6">
-              <h1 class="float-end">200,000円</h1>
-            </div>
-            <hr />
+      <div class="col-md-10 mx-auto my-auto col-lg-5">
+        <p class="text-center fs-1">サインイン</p>
+        <form
+          action="dashboard.html"
+          class="p-4 p-md-5 border rounded-3 bg-light"
+        >
+          <!-- for input section -->
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email Address</label>
           </div>
-          <strong>レッスン詳細</strong>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            commodo metus vel felis pulvinar, a dignissim arcu suscipit.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Morbi hendrerit odio eu risus facilisis
-            faucibus. Etiam quis orci erat. Aliquam euismod non velit sed
-            vestibulum. Nam pulvinar scelerisque enim quis egestas. Morbi eget
-            elit pulvinar libero tincidunt vulputate nec ac urna. Aenean dapibus
-            pulvinar elementum. Donec ut purus consequat, sagittis nisi vel,
-            vestibulum dui. Donec facilisis porta dolor at tincidunt.
-          </p>
-        </div>
-        <div class="buttons d-flex justify-content-center my-3">
-          <button class="btn btn-secondary mx-2" style="min-width: 20%">
-            戻る
+          <div class="form-floating mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me" />
+              自動ログイン
+            </label>
+          </div>
+
+          <button class="w-100 btn btn-lg btn-primary" type="submit">
+            サインイン
           </button>
-          <a
-            href="coure-apply-confirm.html"
-            class="btn btn-primary mx-2"
-            style="min-width: 20%"
+          <hr class="my-4" />
+          <small class="text-muted"
+            >By clicking Sign up, you agree to the terms of use.</small
           >
-            申し込む
-          </a>
+        </form>
+        <div class="text-center mt-4">
+          <a href="" class="link-dark">新規ユーザー登録</a>
         </div>
       </div>
     </div>
