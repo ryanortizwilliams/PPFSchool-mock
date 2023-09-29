@@ -22,5 +22,5 @@
 }
 
 .full-page {
-  height: calc(100vh - (2 * 56px));
+  min-height: calc(100vh - (2 * 56px));
 }
