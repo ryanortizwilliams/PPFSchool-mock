@@ -61,8 +61,46 @@
     <main>
       <div class="row">
         <div class="col-md-9">
-          <!-- dis -->
-          <div class="container bg-light col-xl-10 mb-4 py-4">
+          <!-- display on mobile only -->
+          <div class="container bg-light d-sm-block d-md-none py-3">
+            <img
+              src="images/paused-video.webp"
+              alt=""
+              style="width: 100%; height: auto"
+            />
+            <h1 class="pt-2">Java入門</h1>
+            <div class="row">
+              <div class="d-flex align-items-center">
+                <img
+                  src="images/profile-3.jpg"
+                  alt=""
+                  class="rounded-circle small-profile me-2"
+                />
+                <p class="mb-0 ms-3">
+                  Sarah - <span class="text-muted">Java</span>
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="text-start">
+              <p>
+                評価:
+                <span class="text-warning"
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </p>
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-primary">申し込む</button>
+            </div>
+          </div>
+
+          <!-- display on desktop -->
+          <div class="container d-none d-md-block bg-light col-xl-10 mb-4 py-4">
             <div class="row d-flex py-3">
               <h1>Java入門</h1>
               <small>〜先生</small>
@@ -90,6 +128,8 @@
               </p>
             </div>
           </div>
+
+          <!-- display on both -->
 
           <div class="container bg-light col-xl-10 mb-4 py-4">
             <div class="row">
