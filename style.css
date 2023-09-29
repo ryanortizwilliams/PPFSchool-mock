@@ -1,25 +1,22 @@
-.dashboard{
-    /* height: 100vh; */
-}
-.language-icon{
-    color: blue;
-    font-size: larger;
+.language-icon {
+  color: blue;
+  font-size: larger;
 }
 
-.large-profile{
-    object-fit: cover;
-    width: 8vw;
-    height: 8vw;
+.large-profile {
+  object-fit: cover;
+  width: 8vw;
+  height: 8vw;
 }
 
-.small-profile{
-    object-fit: cover;
-    width: 72px;
-    height: 72px;
+.small-profile {
+  object-fit: cover;
+  width: 72px;
+  height: 72px;
 }
 
-.skill-bar{
-    width: 2px; 
-    height: 8px; 
-    margin-right: 2px;
+.skill-bar {
+  width: 2px;
+  height: 8px;
+  margin-right: 2px;
 }
