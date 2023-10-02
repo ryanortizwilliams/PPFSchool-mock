@@ -33,212 +33,217 @@
         </div>
       </nav>
 
-      <main>
+      <main class="full-page">
 
-        <!-- Sidebar -->
+        <div class="container-fluid">
+           <!-- Sidebar -->
         <div class="row dashboard">
-            <div class="col-lg-2 d-none d-lg-block p-3 bg-light sidebar">
-                <div class="dropdown">
-                    <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="images/profile-1.jpg" alt="" class="rounded-circle large-profile me-2">
-                      <strong>mdo</strong>
-                    </a>
-                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-                      <li><a class="dropdown-item" href="#">New project...</a></li>
-                      <li><a class="dropdown-item" href="#">設定</a></li>
-                      <li><a class="dropdown-item" href="#">Profile</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">サインアウト</a></li>
-                    </ul>
-                  </div>
-                <hr>
-                <ul class="nav nav-pills flex-column mb-auto">
-                  <li class="nav-item">
-                    <a href="dashboard.html" class="nav-link link-dark" aria-current="page">
-                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-                      ダッシュボード
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="nav-link active">
-                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                      プロフィール
-                    </a>
-                  </li>
-                  <li>
-                    <a href="lesson-overview.html" class="nav-link link-dark">
-                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                      レッスン一覧
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="nav-link link-dark">
-                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-                      課題
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="nav-link link-dark">
-                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-                      Customers
-                    </a>
-                  </li>
-                </ul>
-                <hr>
-                <h6 class="ms-3">レッスンメモ <i class="fa-solid fa-plus ms-3"></i></h6>
-                <ul class="nav nav-pills flex-column mb-auto">
-                  <li class="nav-item">
-                    <a href="" class="nav-link link-dark">9月15日ーReact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link link-dark">9月10日ーReact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link link-dark">8月27日ーJava</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link link-dark">8月11日ーFigma</a>
-                  </li>
-
-                </ul>
-                <div class="dropdown my-3">
+          <div class="col-lg-2 d-none d-lg-block p-3 bg-light sidebar">
+              <div class="dropdown">
                   <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-                    <strong>Settings</strong>
+                    <img src="images/profile-1.jpg" alt="" class="rounded-circle large-profile me-2">
+                    <strong>mdo</strong>
                   </a>
                   <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                     <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">設定</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    <li><a class="dropdown-item" href="#">サインアウト</a></li>
                   </ul>
                 </div>
-            </div>
+              <hr>
+              <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                  <a href="dashboard.html" class="nav-link link-dark" aria-current="page">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                    ダッシュボード
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link active">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                    プロフィール
+                  </a>
+                </li>
+                <li>
+                  <a href="lesson-overview.html" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                    レッスン一覧
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                    課題
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link link-dark">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                    Customers
+                  </a>
+                </li>
+              </ul>
+              <hr>
+              <h6 class="ms-3">レッスンメモ <i class="fa-solid fa-plus ms-3"></i></h6>
+              <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                  <a href="" class="nav-link link-dark">9月15日ーReact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link link-dark">9月10日ーReact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link link-dark">8月27日ーJava</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link link-dark">8月11日ーFigma</a>
+                </li>
 
-            <div class="col-lg-10 right-panel">
-                <div class="container">
-                    <div class="row bg-light my-4 py-3">
-                        <div class="flex-row d-flex mb-2">
-                            <h3>プロフィール</h3>
-                            <div class="ms-auto w-25 d-grid">
-                                <button class="btn btn-primary align-self-center">編集</button>
-                            </div>
-                           
-                        </div>
-                        <hr>
-                      <div class="col-md-2 text-center">
-                        <img
-                          src="images/profile-1.jpg"
-                          class="rounded-circle large-profile mx-auto"
-                          alt=""
-                        />
-                        <small class="text-muted d-block"></small>
+              </ul>
+              <div class="dropdown my-3">
+                <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <strong>Settings</strong>
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                  <li><a class="dropdown-item" href="#">New project...</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-lg-10 right-panel">
+              <div class="container">
+                  <div class="row bg-light my-4 py-3">
+                      <div class="flex-row d-flex mb-2">
+                          <h3>プロフィール</h3>
+                          <div class="ms-auto w-25 d-grid">
+                              <button class="btn btn-primary align-self-center">編集</button>
+                          </div>
+                         
                       </div>
-                      <div class="col-md-10 bg-light">
-                        <div class="d-flex flex-row">
-                          <h1 class="d-inline">David</h1>
-                          <div class="d-inline ms-auto text p-2">
+                      <hr>
+                    <div class="col-md-2 text-center">
+                      <img
+                        src="images/profile-1.jpg"
+                        class="rounded-circle large-profile mx-auto"
+                        alt=""
+                      />
+                      <small class="text-muted d-block"></small>
+                    </div>
+                    <div class="col-md-10 bg-light">
+                      <div class="d-flex flex-row">
+                        <h1 class="d-inline">David</h1>
+                        <div class="d-inline ms-auto text p-2">
+                          <span
+                            ><i class="fa-solid fa-1 fa-arrow-up-right-from-square"></i
+                          ></span>
+                          <span><i class="fa-regular fa-heart"></i></span>
+                          <span><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                      </div>
+            
+                      <div class="flex-row">
+                        <small class="d-inline text-muted">React Developer</small>
+                      </div>
+            
+                      <div class="flex flex-row">
+                        <small class="d-inline text-muted">Teaches</small>
+                        <!-- skills -->
+                        <div class="d-inline">
+                          <p class="d-inline ps-2">React</p>
+                          <div class="d-inline-flex align-items-center" style="height: 8px">
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                          </div>
+                        </div>
+            
+                        <div class="d-inline">
+                          <p class="d-inline ps-2">Javascript</p>
+                          <div class="d-inline-flex align-items-center" style="height: 8px">
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
                             <span
-                              ><i class="fa-solid fa-1 fa-arrow-up-right-from-square"></i
+                              class="bg-success rounded"
+                              style="width: 2px; height: 8px"
                             ></span>
-                            <span><i class="fa-regular fa-heart"></i></span>
-                            <span><i class="fa-solid fa-ellipsis"></i></span>
                           </div>
                         </div>
-              
-                        <div class="flex-row">
-                          <small class="d-inline text-muted">React Developer</small>
-                        </div>
-              
-                        <div class="flex flex-row">
-                          <small class="d-inline text-muted">Teaches</small>
-                          <!-- skills -->
-                          <div class="d-inline">
-                            <p class="d-inline ps-2">React</p>
-                            <div class="d-inline-flex align-items-center" style="height: 8px">
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                            </div>
-                          </div>
-              
-                          <div class="d-inline">
-                            <p class="d-inline ps-2">Javascript</p>
-                            <div class="d-inline-flex align-items-center" style="height: 8px">
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span
-                                class="bg-success rounded"
-                                style="width: 2px; height: 8px"
-                              ></span>
-                            </div>
-                          </div>
-              
-                          <div class="d-inline">
-                            <p class="d-inline ps-2">Vue.JS</p>
-                            <div class="d-inline-flex align-items-center" style="height: 8px">
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span class="bg-success rounded skill-bar"></span>
-                              <span
-                                class="bg-success rounded"
-                                style="width: 2px; height: 8px"
-                              ></span>
-                            </div>
+            
+                        <div class="d-inline">
+                          <p class="d-inline ps-2">Vue.JS</p>
+                          <div class="d-inline-flex align-items-center" style="height: 8px">
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span class="bg-success rounded skill-bar"></span>
+                            <span
+                              class="bg-success rounded"
+                              style="width: 2px; height: 8px"
+                            ></span>
                           </div>
                         </div>
-              
-                        <div class="flex flex-row">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                            accumsan iaculis lectus. Aliquam erat volutpat. Nam eleifend justo
-                            a nibh.
-                          </p>
-                        </div>
-              
-                        <hr />
-                        <div class="row">
-                          <small class="py-0 mx-0">From United States</small>
-                          <small class="py-0 mx-0">Living in Osaka, Japan</small>
-                        </div>
-              
-                        <div class="flex-row d-flex py-2">
-                          <strong>私について</strong>
-                          <small class="ms-auto">Test</small>
-                        </div>
-              
-                        <div class="row">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                            in metus eu nisl molestie aliquet dictum sed ligula. Nulla in nisl
-                            eros. Maecenas at nisi ut felis mollis lobortis. Morbi consectetur
-                            turpis nec augue consequat pulvinar. Aenean felis lacus, varius at
-                            tincidunt at, placerat in sem. Sed scelerisque, enim ultrices
-                            viverra viverra, lectus sem bibendum mi, nec gravida dui odio sed
-                            nunc. Nunc sollicitudin lectus ex, dapibus hendrerit metus luctus
-                            vel. Vestibulum nec nulla quis purus gravida aliquet. Praesent
-                            blandit ligula in tincidunt egestas. Proin posuere vestibulum
-                            porta. Nullam sit amet quam nisi. Etiam elementum libero nisi, eu
-                            scelerisque elit cursus ac.
-                          </p>
-                        </div>
+                      </div>
+            
+                      <div class="flex flex-row">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                          accumsan iaculis lectus. Aliquam erat volutpat. Nam eleifend justo
+                          a nibh.
+                        </p>
+                      </div>
+            
+                      <hr />
+                      <div class="row">
+                        <small class="py-0 mx-0">From United States</small>
+                        <small class="py-0 mx-0">Living in Osaka, Japan</small>
+                      </div>
+            
+                      <div class="flex-row d-flex py-2">
+                        <strong>私について</strong>
+                        <small class="ms-auto">Test</small>
+                      </div>
+            
+                      <div class="row">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                          in metus eu nisl molestie aliquet dictum sed ligula. Nulla in nisl
+                          eros. Maecenas at nisi ut felis mollis lobortis. Morbi consectetur
+                          turpis nec augue consequat pulvinar. Aenean felis lacus, varius at
+                          tincidunt at, placerat in sem. Sed scelerisque, enim ultrices
+                          viverra viverra, lectus sem bibendum mi, nec gravida dui odio sed
+                          nunc. Nunc sollicitudin lectus ex, dapibus hendrerit metus luctus
+                          vel. Vestibulum nec nulla quis purus gravida aliquet. Praesent
+                          blandit ligula in tincidunt egestas. Proin posuere vestibulum
+                          porta. Nullam sit amet quam nisi. Etiam elementum libero nisi, eu
+                          scelerisque elit cursus ac.
+                        </p>
                       </div>
                     </div>
                   </div>
-              
-              
+                </div>
+            
+            
 
-                
-            </div>
+              
+          </div>
+      </div>
         </div>
+
+
+       
         
       </main>
 
