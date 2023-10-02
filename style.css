@@ -23,6 +23,4 @@
 
 .full-page {
   min-height: calc(100vh - (2 * 56px));
-  width: 100vw;
-  overflow: scroll;
 }
