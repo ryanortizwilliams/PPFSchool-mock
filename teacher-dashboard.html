@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>教師ダッシュボード|PPFSchool</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/2abed88443.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">PPFスクール</a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >ホーム</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="dashboard.html"
+                >ダッシュボード</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="teacher-profile.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >教師プロフィール</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container-fluid">
+        <!-- Sidebar -->
+        <div class="row dashboard full-page">
+          <div class="col-lg-2 d-none d-lg-block p-3 bg-light sidebar">
+            <div class="dropdown">
+              <a
+                href="#"
+                class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                id="dropdownUser2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="images/profile-1.jpg"
+                  alt=""
+                  class="rounded-circle large-profile me-2"
+                />
+                <strong>mdo</strong>
+              </a>
+              <ul
+                class="dropdown-menu text-small shadow"
+                aria-labelledby="dropdownUser2"
+              >
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">設定</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">サインアウト</a></li>
+              </ul>
+            </div>
+            <hr />
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a
+                  href="dashboard.html"
+                  class="nav-link link-dark"
+                  aria-current="page"
+                >
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#home"></use>
+                  </svg>
+                  ダッシュボード
+                </a>
+              </li>
+              <li>
+                <a href="student-profile.html" class="nav-link link-dark">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#speedometer2"></use>
+                  </svg>
+                  プロフィール
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link active">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                  レッスン一覧
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link link-dark">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#grid"></use>
+                  </svg>
+                  課題
+                </a>
+              </li>
+              <li>
+                <a href="edit-lesson.html" class="nav-link link-dark">
+                  <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  レッスン編集
+                </a>
+              </li>
+            </ul>
+            <hr />
+            <h6 class="ms-3">
+              レッスンメモ <i class="fa-solid fa-plus ms-3"></i>
+            </h6>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link link-dark">9月15日ーReact</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link link-dark">9月10日ーReact</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link link-dark">8月27日ーJava</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link link-dark">8月11日ーFigma</a>
+              </li>
+            </ul>
+            <div class="dropdown my-3">
+              <a
+                href="#"
+                class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                id="dropdownUser2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <strong>Settings</strong>
+              </a>
+              <ul
+                class="dropdown-menu text-small shadow"
+                aria-labelledby="dropdownUser2"
+              >
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-10 right-panel">
+            <div class="container">
+              <div class="row bg-light my-4 py-3 d-flex align-items-baseline">
+                <h3 class="col-auto">新規申し込み/お問合せ</h3>
+                <a class="col-auto fs-3">2</a>
+                <p class="col-auto px-0">件</p>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row bg-light my-4 py-3 d-flex align-items-baseline">
+                <h3 class="col-auto">当月の申し込み件数</h3>
+                <h3 class="col-auto">5</h3>
+                <p class="col-auto px-0">件</p>
+                <h3 class="col-auto">250,000</h3>
+                <p class="col-auto px-0">円</p>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row bg-light my-4 py-3">
+                <div class="flex-row d-flex mb-2">
+                  <h3>登録レッスン一覧</h3>
+                  <i
+                    class="ms-auto my-auto fa-2x fa-solid fa-circle-plus d-sm-block d-md-none"
+                  ></i>
+                  <div class="ms-5 w-25 d-md-grid d-none">
+                    <button class="btn btn-primary align-self-center">
+                      レッスン新規登録
+                    </button>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">問合せ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">運営会社</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">プライバシー</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">特定商取引に関する表記</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
